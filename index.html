@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="img/web-icon.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Headline News Terbaru Hari ini | South Sumatra Headline News</title>
+</head>
+
+<body>
+    <!-- padding container terlalu besar, jadi px-4 + px-3 digunakan -->
+    <div class="px-4">
+        <div class="px-3">
+            <!-- NAVHEAD -->
+            <div class="navhead py-3 position-sticky top-0 d-flex justify-content-between bg-white">
+                <div>
+                    <a href="index.html" class="logo-link"><img src="img/logo.png" class="img-logo"></a>
+                </div>
+                <div class="d-flex align-items-center navhead-topic">
+                    <a href="#" class="mx-2 d-inline-block">News</a>
+                    <a href="#sect-media-politic" class="mx-2 d-inline-block">Politic</a>
+                    <a href="#sect-media-tech" class="mx-2 d-inline-block">Technology</a>
+                    <a href="#sect-media-sport" class="mx-2 d-inline-block">Sport</a>
+                    <a href="#sect-media-weather" class="mx-2 d-inline-block">Weather</a>
+                </div>
+                <div class="d-flex">
+                    <form class="form-inline d-flex justify-content-center md-form form-sm active-pink active-pink-2">
+                        <input class="form-control form-control-sm w-100 px-2" type="text" placeholder="Search"
+                            aria-label="Search">
+                    </form>
+                    <a href="#" class="ms-4 profile-button my-auto">
+                        <i class="fa-solid fa-user d-inline-block"></i>
+                        <span class="ms-2">Sign in</span>
+                    </a>
+                </div>
+            </div>
+
+            <!------------------------------------------------------------------------------>
+
+            <div class="sect-top pb-4 mt-4">
+                <div class="sect-top-date mb-4">
+                    <h4 class="ps-3 vline">Today's Headline News</h4>
+                </div>
+                <div class="sect-top-news">
+                    <div class="row mx-auto" style="height: fit-content;">
+
+                        <div class="media-news position-relative rounded col-6 me-3 p-0">
+                            <a href="#" class="media-link-overlay position-absolute d-block top-0 left-0 w-100 h-100"></a>
+                            <div class="opac position-absolute d-block top-0 left-0 w-100 h-100"></div>
+                            <div class="media-img position-absolute">
+                                <img src="img/news-img/n1.jpeg">
+                            </div>
+                            <div class="media-desc position-absolute text-white">
+                                <h2 class="mb-2">Biden prepared to meet Putin to end Russia's war</h2>
+                                <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus iste modi dignissimos repudiandae? Necessitatibus hic eos rem?</p>
+                                <p class="ps-3 vline">NEWS</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+
+                            <div class="row mb-2">
+                                <div class="media-news position-relative rounded col me-2 p-0 bg-black">
+                                    <a href="#" class="media-link-overlay position-absolute d-block top-0 left-0 w-100 h-100"></a>
+                                    <div class="opac position-absolute d-block top-0 left-0 w-100 h-100"></div>
+                                    <div class="media-img position-absolute">
+                                        <img src="img/news-img/n2.jpeg">
+                                    </div>
+                                    <div class="media-desc-small position-absolute text-white">
+                                        <h class="mb-2">G20 summit statement</h4>
+                                        <p class="media-desc-small mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus iste</p>
+                                        <p class="ps-2 vline-small">NEWS</p>
+                                    </div>
+                                </div>
+
+                                <div class="media-news position-relative rounded col p-0 bg-black">
+                                    <a href="#" class="media-link-overlay position-absolute d-block top-0 left-0 w-100 h-100"></a>
+                                    <div class="opac position-absolute d-block top-0 left-0 w-100 h-100"></div>
+                                    <div class="media-img position-absolute">
+                                        <img src="img/news-img/n3.jpg">
+                                    </div>
+                                    <div class="media-desc-small position-absolute text-white">
+                                        <h class="mb-2">Review of papers to blow Trump</h4>
+                                        <p class="media-desc-small mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus iste</p>
+                                        <p class="ps-2 vline-small" style="border-color: limegreen;">POLITIC</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="media-news position-relative rounded col me-2 p-0 bg-black">
+                                    <a href="#" class="media-link-overlay position-absolute d-block top-0 left-0 w-100 h-100"></a>
+                                    <div class="opac position-absolute d-block top-0 left-0 w-100 h-100"></div>
+                                    <div class="media-img position-absolute">
+                                        <img src="img/news-img/n4.png">
+                                    </div>
+                                    <div class="media-desc-small position-absolute text-white">
+                                        <h class="mb-2">Comeback kings Japan</h4>
+                                        <p class="media-desc-small mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus iste</p>
+                                        <p class="ps-2 vline-small" style="border-color: orange;">SPORT</p>
+                                    </div>
+                                </div>
+
+                                <div class="media-news position-relative rounded col p-0 bg-black">
+                                    <a href="#" class="media-link-overlay position-absolute d-block top-0 left-0 w-100 h-100"></a>
+                                    <div class="opac position-absolute d-block top-0 left-0 w-100 h-100"></div>
+                                    <div class="media-img position-absolute">
+                                        <img src="img/news-img/n5.jpg">
+                                    </div>
+                                    <div class="media-desc-small position-absolute text-white">
+                                        <h class="mb-2">Biden and Macron bilateral meeting</h4>
+                                        <p class="media-desc-small mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus iste</p>
+                                        <p class="ps-2 vline-small" style="border-color: limegreen;">POLITIC</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------------------------------------------------------------------------------>
+            <hr class="my-4 bg-dark">
+
+            <div class="my-4">
+                <div class="sect-media" id="sect-media-politic">
+                    <div class="sect-top-date mb-4">
+                        <h4 class="ps-3 vline" style="border-color: limegreen;">Politic</h4>
+                    </div>
+
+                    <div class="row">
+                        <div class="col me-4">
+                            <a href="#">
+                                <div class="media-card">
+                                    <div class="media-card-mask rounded mb-2"> 
+                                        <img src="img/news-img/n5.jpg" class="rounded w-100 sect-media-img">
+                                    </div>
+                                    <h4 class="mb-2">Biden and Macron bilateral meeting</h4>
+                                    <p class="mb-2" style="color: #616161;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis animi, nemo eum ducimus in autem</p>
+                                    <p class="ps-3 vline-small" style="border-color: limegreen; font-size: 0.85rem;">USA & FRANCE</p>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col me-4">
+                            <a href="#">
+                                <div class="media-card">
+                                    <div class="media-card-mask rounded mb-2"> 
+                                        <img src="img/news-img/n5.jpg" class="rounded w-100 sect-media-img">
+                                    </div>
+                                    <h4 class="mb-2">Biden and Macron bilateral meeting</h4>
+                                    <p class="mb-2" style="color: #616161;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis animi, nemo eum ducimus in autem</p>
+                                    <p class="ps-3 vline-small" style="border-color: limegreen; font-size: 0.85rem;">USA & FRANCE</p>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col">
+                            <a href="#">
+                                <div class="media-card">
+                                    <div class="media-card-mask rounded mb-2"> 
+                                        <img src="img/news-img/n5.jpg" class="rounded w-100 sect-media-img">
+                                    </div>
+                                    <h4 class="mb-2">Biden and Macron bilateral meeting</h4>
+                                    <p class="mb-2" style="color: #616161;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis animi, nemo eum ducimus in autem</p>
+                                    <p class="ps-3 vline-small" style="border-color: limegreen; font-size: 0.85rem;">USA & FRANCE</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------------------------------------------------------------------------------>
+            <hr class="my-4 bg-white">
+
+            <div class="my-4">
+                <div class="sect-media" id="sect-media-tech">
+                    <div class="sect-top-date mb-4">
+                        <h4 class="ps-3 vline" style="border-color: blue;">Technology</h4>
+                    </div>
+
+                    <div class="row">
+                        <div class="col me-4">
+                            <a href="#">
+                                <div class="media-card">
+                                    <div class="media-card-mask rounded mb-2"> 
+                                        <img src="img/news-img/n6.jpg" class="rounded w-100 sect-media-img">
+                                    </div>
+                                    <h4 class="mb-2">OpenAI's ChatGPT bot is scary good</h4>
+                                    <p class="mb-2" style="color: #616161;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis animi, nemo eum ducimus in autem</p>
+                                    <p class="ps-3 vline-small" style="border-color: blue; font-size: 0.85rem;">AI</p>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col me-4">
+                            <a href="#">
+                                <div class="media-card">
+                                    <div class="media-card-mask rounded mb-2"> 
+                                        <img src="img/news-img/n6.jpg" class="rounded w-100 sect-media-img">
+                                    </div>
+                                    <h4 class="mb-2">OpenAI's ChatGPT bot is scary good</h4>
+                                    <p class="mb-2" style="color: #616161;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis animi, nemo eum ducimus in autem</p>
+                                    <p class="ps-3 vline-small" style="border-color: blue; font-size: 0.85rem;">AI</p>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col">
+                            <a href="#">
+                                <div class="media-card">
+                                    <div class="media-card-mask rounded mb-2"> 
+                                        <img src="img/news-img/n6.jpg" class="rounded w-100 sect-media-img">
+                                    </div>
+                                    <h4 class="mb-2">OpenAI's ChatGPT bot is scary good</h4>
+                                    <p class="mb-2" style="color: #616161;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis animi, nemo eum ducimus in autem</p>
+                                    <p class="ps-3 vline-small" style="border-color: blue; font-size: 0.85rem;">AI</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------------------------------------------------------------------------------>
+            <hr class="my-4 bg-white">
+
+            <div class="my-4">
+                <div class="sect-media" id="sect-media-sport">
+                    <div class="sect-top-date mb-4">
+                        <h4 class="ps-3 vline" style="border-color: orange;">Sport</h4>
+                    </div>
+
+                    <div class="row">
+                        <div class="col me-4">
+                            <a href="#">
+                                <div class="media-card">
+                                    <div class="media-card-mask rounded mb-2"> 
+                                        <img src="img/news-img/n7.jpg" class="rounded w-100 sect-media-img">
+                                    </div>
+                                    <h4 class="mb-2">Did it cross the line? Germany out on dramatic night</h4>
+                                    <p class="mb-2" style="color: #616161;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis animi, nemo eum ducimus in autem</p>
+                                    <p class="ps-3 vline-small" style="border-color: orange; font-size: 0.85rem;">WORLD CUP 2022</p>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col me-4">
+                            <a href="#">
+                                <div class="media-card">
+                                    <div class="media-card-mask rounded mb-2"> 
+                                        <img src="img/news-img/n7.jpg" class="rounded w-100 sect-media-img">
+                                    </div>
+                                    <h4 class="mb-2">Did it cross the line? Germany out on dramatic night</h4>
+                                    <p class="mb-2" style="color: #616161;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis animi, nemo eum ducimus in autem</p>
+                                    <p class="ps-3 vline-small" style="border-color: orange; font-size: 0.85rem;">WORLD CUP 2022</p>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="col">
+                            <a href="#">
+                                <div class="media-card">
+                                    <div class="media-card-mask rounded mb-2"> 
+                                        <img src="img/news-img/n7.jpg" class="rounded w-100 sect-media-img">
+                                    </div>
+                                    <h4 class="mb-2">Did it cross the line? Germany out on dramatic night</h4>
+                                    <p class="mb-2" style="color: #616161;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis animi, nemo eum ducimus in autem</p>
+                                    <p class="ps-3 vline-small" style="border-color: orange; font-size: 0.85rem;">WORLD CUP 2022</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------------------------------------------------------------------------------>
+
+            <div class="row pb-4">
+                <div class="col-3 position-sticky"  id="sect-media-weather" style="height: fit-content; top: 3rem;">
+                    <hr class="my-4 bg-dark">
+                    <h6 class="mb-4">PALEMBANG WEATHER</h6>
+                    <div class="d-flex flex-column">
+                        <div class="weather-card d-flex align-content-center mb-4">
+                            <i class="fa-solid fa-sun" style="font-size: 3rem;"></i>
+                            <div class="weather-card-desc ps-4">
+                                <p>SATURDAY</p>
+                                <p style="font-size: 14px; font-family: sans-serif;">31&#8451; / 32&#8451; Feels like 35&#8451;</p>
+                            </div>
+                        </div>
+
+                        <div class="weather-card d-flex align-content-center mb-4">
+                            <i class="fa-solid fa-cloud-bolt" style="font-size: 3rem;"></i>
+                            <div class="weather-card-desc ps-4">
+                                <p>SUNDAY</p>
+                                <p style="font-size: 14px; font-family: sans-serif;">26&#8451; / 28&#8451; Feels like 30&#8451;</p>
+                            </div>
+                        </div>
+
+                        <div class="weather-card d-flex align-content-center mb-4">
+                            <i class="fa-solid fa-cloud-rain" style="font-size: 3rem;"></i>
+                            <div class="weather-card-desc ps-4">
+                                <p>MONDAY</p>
+                                <p style="font-size: 14px; font-family: sans-serif;">28&#8451; / 30&#8451; Feels like 31&#8451;</p>
+                            </div>
+                        </div>
+
+                        <div class="weather-card d-flex align-content-center mb-4">
+                            <i class="fa-solid fa-wind" style="font-size: 3rem;"></i>
+                            <div class="weather-card-desc ps-4">
+                                <p>TUESDAY</p>
+                                <p style="font-size: 14px; font-family: sans-serif;">30&#8451; / 32&#8451; Feels like 32&#8451;</p>
+                            </div>
+                        </div>
+
+                        <div class="weather-card d-flex align-content-center mb-4">
+                            <i class="fa-solid fa-sun" style="font-size: 3rem;"></i>
+                            <div class="weather-card-desc ps-4">
+                                <p>WEDNESDAY</p>
+                                <p style="font-size: 14px; font-family: sans-serif;">34&#8451; / 35&#8451; Feels like 38&#8451;</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-9 ps-4">
+                    <div class="ps-4" style="font-family: 'Roboto Condensed', 'Open Sans';">
+                        <hr class="my-4 bg-dark">
+                        <h6 class="mb-4">RECOMMENDED FOR YOU</h6>
+                        <div class="media-rec">
+                            <div class="row mb-4">
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Free gene mutation test offer Hong Kong lung cancer patients chance to live longer</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">3 hours ago</p>
+                                            </div>
+                                            <img src="img/news-img/n8.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Huawei CFO Meng Wanzhou's bank fraud charges to be dismissed</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">2 Dec 2022 - 12:45PM</p>
+                                            </div>
+                                            <img src="img/news-img/n9.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Hong Kong to mourn Jiang Zemin</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">3 Dec 2022 - 4:17PM</p>
+                                            </div>
+                                            <img src="img/news-img/n10.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Huawei CFO Meng Wanzhou's bank fraud charges to be dismissed</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">2 Dec 2022 - 12:45PM</p>
+                                            </div>
+                                            <img src="img/news-img/n9.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Hong Kong to mourn Jiang Zemin</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">3 Dec 2022 - 4:17PM</p>
+                                            </div>
+                                            <img src="img/news-img/n10.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Free gene mutation test offer Hong Kong lung cancer patients chance to live longer</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">3 hours ago</p>
+                                            </div>
+                                            <img src="img/news-img/n8.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Hong Kong to mourn Jiang Zemin</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">3 Dec 2022 - 4:17PM</p>
+                                            </div>
+                                            <img src="img/news-img/n10.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Free gene mutation test offer Hong Kong lung cancer patients chance to live longer</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">3 hours ago</p>
+                                            </div>
+                                            <img src="img/news-img/n8.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Huawei CFO Meng Wanzhou's bank fraud charges to be dismissed</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">2 Dec 2022 - 12:45PM</p>
+                                            </div>
+                                            <img src="img/news-img/n9.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Free gene mutation test offer Hong Kong lung cancer patients chance to live longer</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">3 hours ago</p>
+                                            </div>
+                                            <img src="img/news-img/n8.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Huawei CFO Meng Wanzhou's bank fraud charges to be dismissed</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">2 Dec 2022 - 12:45PM</p>
+                                            </div>
+                                            <img src="img/news-img/n9.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Hong Kong to mourn Jiang Zemin</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">3 Dec 2022 - 4:17PM</p>
+                                            </div>
+                                            <img src="img/news-img/n10.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Huawei CFO Meng Wanzhou's bank fraud charges to be dismissed</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">2 Dec 2022 - 12:45PM</p>
+                                            </div>
+                                            <img src="img/news-img/n9.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Hong Kong to mourn Jiang Zemin</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">3 Dec 2022 - 4:17PM</p>
+                                            </div>
+                                            <img src="img/news-img/n10.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Free gene mutation test offer Hong Kong lung cancer patients chance to live longer</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">3 hours ago</p>
+                                            </div>
+                                            <img src="img/news-img/n8.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Hong Kong to mourn Jiang Zemin</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">3 Dec 2022 - 4:17PM</p>
+                                            </div>
+                                            <img src="img/news-img/n10.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Free gene mutation test offer Hong Kong lung cancer patients chance to live longer</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">3 hours ago</p>
+                                            </div>
+                                            <img src="img/news-img/n8.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col me-4">
+                                    <a href="#">
+                                        <div class="d-flex">
+                                            <div>
+                                                <p class="mb-2">Huawei CFO Meng Wanzhou's bank fraud charges to be dismissed</p>
+                                                <p style="font-family: sans-serif; color: #a6a6a6; font-size: 12px;">2 Dec 2022 - 12:45PM</p>
+                                            </div>
+                                            <img src="img/news-img/n9.jpg" class="media-rec-img rounded">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------------------------------------------->
+
+    <div class="footer-ad"></div>
+
+    <!-------------------------------------------------------------------------------------->
+
+    <div class="footer p-4">
+        <div class="p-2">
+            <div class="footer-contact d-flex justify-content-between mb-4">
+                <img src="img/logo-white.png" style="height: 3rem;">
+                <div class="contact d-flex justify-content-between" style="width: 12rem;">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-4">
+                <div class="col-4 pe-4">
+                    <div class="row align-items-center mb-4">
+                        <div class="col">
+                            <p class="footer-title">Subscribe to the SSHN</p>
+                            <p class="footer-subs-desc">Brought to you headline news and critical insights of the world</p>
+                        </div>
+                        <div class="col text-center">
+                            <button class="btn btn-warning px-4 py-2" style="font-size: 0.8rem;">
+                                SUBSCRIBE
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <hr>
+
+                    <div class="row my-4">
+                        <p class="footer-title">SSHN Global Newsletter</p>
+                        <div class="row">
+                            <div class="col-8">
+                                <p class="footer-subs-desc">
+                                    By submitting, you consent to receiving marketing emails from SSHN. If you don't want these, tick here
+                                </p>
+                                <div class="d-flex w-75 justify-content-between my-2">
+                                    <a href="#">
+                                        <div class="bg-black px-3 py-1 border border-secondary rounded">
+                                            <i class="fa-brands fa-google"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="bg-black px-3 py-1 border border-secondary rounded">
+                                            <i class="fa-brands fa-yahoo"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="bg-black px-3 py-1 border border-secondary rounded">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="footer-subs-desc" style="font-size: 0.6rem;">
+                                    By registering, you agree to our T&C and Privacy Policy
+                                </p>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-check ms-4">
+                                    <input class="form-check-input" type="checkbox" value="" id="no-email">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row my-4">
+                        <div class="row mb-3">
+                            <div class="col">
+                                <p class="footer-title">Read more in the SSHN App</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <a href="#"><img class="footer-down-app" src="img/footer_appstore.png"></a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#"><img class="footer-down-app" src="img/footer_playstore.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <p class="footer-title">Category</p>
+                    <ul>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#sect-media-politic">Politic</a></li>
+                        <li><a href="#sect-media-tech">Technology</a></li>
+                        <li><a href="#sect-media-sport">Sport</a></li>               
+                        <li><a href="#sect-media-weather">Weather</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <p class="footer-title">About Us</p>
+                    <ul>
+                        <li><a href="#">All Topics</a></li>
+                        <li><a href="#">All Authors</a></li>
+                        <li><a href="#">SSHN Publishers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Term & Conditions</a></li>
+                        <li><a href="#">Community Guideliens</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <p class="footer-title">Products & Services</p>
+                    <ul>
+                        <li><a href="#">Group Subscriptions</a></li>
+                        <li><a href="#">Mobile Application</a></li>
+                        <li><a href="#">Newsletters</a></li>
+                        <li><a href="#">Monthly Magazine</a></li>
+                        <li><a href="#">Syndication & Licensing</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <p class="footer-title">Other</p>
+                    <ul>
+                        <li><a href="#">Advertise with us</a></li>
+                        <li><a href="#">Our Products</a></li>
+                        <li><a href="#">Morning Studio</a></li>
+                        <li><a href="#">SSHN Events</a></li>
+                        <li><a href="#">SSHN Editorial Blogs</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <p class="footer-subs-desc" style="font-size: 0.8rem;">
+                    Copyright &copy; 2022 South Sumatra Headline News Publishers <b>Rendy Isdwanta</b> Ltd. All rights reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
